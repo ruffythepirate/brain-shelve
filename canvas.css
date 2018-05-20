@@ -1,5 +1,23 @@
-.main-canvas {
-  width: 100%;
+html,body {
+  margin: 0px;
   height: 100%;
+}
+
+#button-panel {
+  width: 100px;
+  float: left;
   background-color: black;
+  height: 100%;
+}
+
+#note-panel {
+  float: left;
+  width: 350px;
+  background-color: green;
+  height: 100%;
+}
+
+#edit-panel {
+  background-color: blue;
+  height: 100%;
 }

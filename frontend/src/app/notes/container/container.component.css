@@ -1,0 +1,15 @@
+.bsh-notes-container .navigation-container {
+  height: 100%;
+  float: left;
+  width: 100px;
+}
+
+.bsh-notes-container .notes-list-container {
+  height: 100%;
+  float: left;
+  width: 300px;
+}
+
+.bsh-notes-container .editor-container {
+  height: 100%;
+}

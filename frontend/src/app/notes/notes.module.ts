@@ -2,7 +2,10 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
 
+import { NavigationComponent } from './navigation/navigation.component';
+import { NoteListComponent } from './note-list/note-list.component';
 import { NoteEditorComponent } from './note-editor/note-editor.component';
+import { ContainerComponent } from './container/container.component';
 
 const appRoutes: Routes = [
   {
@@ -12,7 +15,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'notes',
-    component: NoteEditorComponent
+    component: ContainerComponent
   }
 ];
 
@@ -22,9 +25,15 @@ const appRoutes: Routes = [
     RouterModule.forChild(appRoutes)
   ],
   declarations: [
-    NoteEditorComponent
+    NavigationComponent,
+    NoteListComponent,
+    NoteEditorComponent,
+    ContainerComponent
   ],
   exports: [
+    ContainerComponent,
+    NavigationComponent,
+    NoteListComponent,
     NoteEditorComponent
   ]
 })

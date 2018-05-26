@@ -3,6 +3,12 @@ html,body {
   height: 100%;
 }
 
+.search-panel {
+  width: 100%;
+  height: auto;
+  background-color: red;
+}
+
 #button-panel {
   width: 100px;
   float: left;

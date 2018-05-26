@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { AppRoutingModule } from './app-routing.module';
-import { NoteEditorModule } from './notes-editor/note-editor/note-editor.module';
+import { NoteEditorModule } from './notes/notes.module';
 
 @NgModule({
   declarations: [

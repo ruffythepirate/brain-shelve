@@ -1,6 +1,12 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
 .bsh-notes-container .navigation-container {
   height: 100%;
   float: left;
+  background: blue;
   width: 100px;
 }
 

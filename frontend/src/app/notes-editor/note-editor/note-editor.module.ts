@@ -6,9 +6,8 @@ import { NoteEditorComponent } from './note-editor.component';
   declarations: [
     NoteEditorComponent
   ],
-  imports: [
-  ],
-  providers: [],
-  bootstrap: []
+  exports: [
+    NoteEditorComponent
+  ]
 })
 export class NoteEditorModule { }

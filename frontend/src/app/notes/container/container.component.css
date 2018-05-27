@@ -3,19 +3,19 @@
   height: 100%;
 }
 
-.bsh-notes-container .navigation-container {
+.navigation-container {
   height: 100%;
   float: left;
   background: blue;
   width: 100px;
 }
 
-.bsh-notes-container .notes-list-container {
+.notes-list-container {
   height: 100%;
   float: left;
   width: 300px;
 }
 
-.bsh-notes-container .editor-container {
+.editor-container {
   height: 100%;
 }
